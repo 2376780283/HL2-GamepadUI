@@ -45,7 +45,7 @@ GamepadUIMainMenu::GamepadUIMainMenu( vgui::Panel* pParent )
     }
 
     LoadMenuButtons();
-
+ //   我們不需要 導航按扭
  //   SetFooterButtons( FooterButtons::Select, FooterButtons::Select );
 }
 

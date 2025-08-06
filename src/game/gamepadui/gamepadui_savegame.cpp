@@ -298,10 +298,12 @@ void GamepadUISaveGamePanel::ScanSavedGames()
 		m_strNoSaveString = GamepadUIString( "#GameUI_NoSaveGamesToDisplay" );
 		SetFooterButtons( FooterButtons::Back );
 	}
-	else
+/*	else
 	{
-		SetFooterButtons( FooterButtons::Back | FooterButtons::Select, FooterButtons::Select );
+	//      暫時不需要導航按扭（win32 / android 觸控）	
+	//	SetFooterButtons( FooterButtons::Back | FooterButtons::Select, FooterButtons::Select );
 	}
+ */
 
 	SetControlEnabled( "loadsave", false );
 	SetControlEnabled( "delete", false );
